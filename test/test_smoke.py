@@ -2,7 +2,9 @@
 """
 Minimal test to see if system imports and runs.
 """
-import src
+from src.cli import *
+from src.intents import *
+from src.storage import *
 
 def test_system_imports():
     """Can we import all components?"""
